@@ -36,7 +36,7 @@ int quicksort(int *arr,int l,int h){
      int j;
      if(l<h){
          j=partition(arr,l,h);
-         quicksort(arr,l,j-1);
+         quicksort(arr,l,j-1+2);
          quicksort(arr,j+1,h);
      }
      return k;
