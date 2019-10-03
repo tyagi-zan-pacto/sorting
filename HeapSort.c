@@ -64,13 +64,13 @@ void heapsort(int* A,int n){
 int main(){
 int n;
 int* A;
-
+int ab=10;
 printf("enter the size of the array");
 scanf("%d",&n);
 A=(int*)malloc(sizeof(int)*n);
 //printf("lijefrhwpiejhf%ldjfneijnd",sizeof(A));
 for(int i=1;i<n+1;i++){
- A[i]=rand()%10;
+ A[i]=rand()%ab;
 printf("%d,,",A[i]);
 }
 A[0]=0;
